@@ -82,9 +82,45 @@ Die Datei wird bei ~16 000 Zeichen vollständig geladen.
 - **§6** bei Kreuz „mit vollständig ausgeschriebener E-Mail".
 - **§11** zwei neue Prüfungen: E-Mail ausgeschrieben statt angeboten, kein Personenname.
 
-## Nächste Testrunde (v8)
+## Testrunde auf v7 (nachgereicht, v8 war noch nicht hochgeladen)
 
-1. **B7 Jobticket** — E-Mail muss fertig dastehen, ohne Rückfrage, ohne Personennamen.
-2. **B1 Gleittage** — muss ✅ bleiben, mit beiden Grenzen. Noch nicht auf v7 geprüft.
-3. **D1 Finanzamt** — muss ❌ bleiben. Noch nicht auf v7 geprüft.
-4. **A2 Sportkurs** — muss ❌ bleiben, jetzt über die Negativliste. Noch nicht auf v7 geprüft.
+Erkennbar an den Denkprotokollen: sie zitieren „einen Namen nur als Zusatz und nur,
+wenn er dort steht" — die v7-Fassung von Abschnitt 9.
+
+| ID | Ergebnis | Dauer | Befund |
+|----|----------|-------|--------|
+| B1 | ✅ **bestanden** | **0:29** (v6: 1:47) | ✅ Haken mit beiden Grenzen und beiden Quellen. **Die Regel „Addition ist keine Ableitung" aus §5 wirkt** — zwei Dateien machen die Antwort nicht mehr zu Gelb. Kleiner Verlust: der Vorbehalt „soweit dienstliche Gründe nicht entgegenstehen" aus Tz. 5.4 fehlt, v6 hatte ihn noch. |
+| D1 | ✅ **bestanden** | 0:53 (v6: 1:15) | ❌ richtig, OH 2.2.2 benannt, Personalbereich des Finanzamts und Personalrat, E-Mail ausgeschrieben. |
+| B7 | ✅ Verdikt richtig | 1:05 | ❌ richtig, Kurz-Zeile korrekt, E-Mail diesmal **ausgeschrieben** statt angeboten — dieselbe v7-Regel, anderes Verhalten als um 14:14. Die Mehrdeutigkeit war also echte Varianz, kein Einzelfall. Namen weiterhin verstümmelt: Denkprotokoll „Tellschaft", Antworttext „Tesellschaft" im selben Lauf. |
+| A2 | ⚠️ Verdikt richtig, Text falsch | **3:20** | ❌ richtig und BGM ist die beste denkbare Zuständigkeit. Aber: Kurz-Zeile beginnt mit **„Nein,"** — damit ist die Sachfrage doch beantwortet, verboten nach §5. Dazu Personennamen **mit Personalnummer** (ANr. 1915, ANr. 2247). Und die Negativliste sparte hier keine Zeit: das Modell fand mit BGM ein Nachbarthema und rang lange damit. |
+
+### Befunde
+
+1. **„Nein" ist die neue Form des alten Fehlers.** §5 verbietet die Aussage, dass es
+   die Sache nicht gibt. Das Modell fand einen Weg, sie in ein einziges Wort zu
+   packen, während der Rest des Satzes korrekt blieb.
+2. **Personalnummern kamen mit den Namen.** §10 verbietet personenbezogene Daten,
+   §2 sprach nur von Namen.
+3. **Ein Nachbarthema hebelt die Negativliste aus.** Steht das Thema auf der Liste,
+   das Modell findet aber eine thematisch nahe Einheit, sucht es weiter statt
+   abzubrechen. Die gefundene Einheit ist in Wahrheit schon die Antwort auf die
+   Zuständigkeitsfrage.
+
+## Änderungen v9 (16 916 Zeichen)
+
+- **§5** Kurz-Zeile bei ❌ darf nicht mit Nein oder Ja beginnen.
+- **§2** Negativliste: ein benachbarter Treffer ist kein Treffer, sondern die
+  zuständige Stelle — dort abbrechen.
+- **§2** keine Personalnummern, nicht nur keine Namen.
+- **§4** auch nach Vorbehalten suchen („soweit dienstliche Gründe nicht entgegenstehen").
+- **§11** zwei neue Prüfungen.
+
+## Nächste Testrunde (v9)
+
+Alles auf **v9** laufen lassen, v8 wurde nie getestet.
+
+1. **A2 Sportkurs** — Kurz-Zeile ohne „Nein", keine Namen, keine ANr., deutlich unter 3:20.
+2. **B7 Jobticket** — E-Mail ausgeschrieben, ohne Personennamen.
+3. **B1 Gleittage** — muss ✅ bleiben, jetzt **mit** dem Vorbehalt „dienstliche Gründe".
+4. **A1 Stempeln** — muss ❌ mit Lückensatz bleiben.
+5. **D1 Finanzamt** — muss ❌ bleiben.
