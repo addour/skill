@@ -175,8 +175,39 @@ nirgends an.
   bleibt die Empfängerzeile weg, mit dem Hinweis, sie im Intranet nachzuschlagen.
 - **§11** eine neue Prüfung.
 
+## Ergebnisse v11 — A1 zweimal
+
+| Prüfpunkt | Lauf 1 (1:58) | Lauf 2 (1:27) |
+|-----------|---------------|---------------|
+| keine erfundene Adresse | ✅ | ✅ |
+| sagt, wo die Adresse steht | ✅ Intranet-Zeile | ❌ **fehlt** |
+| E-Mail ausgeschrieben | ✅ | ✅ |
+| Hinweis auf Tz. 5.15 mit Geltungsbereich | ✅ | ✅ |
+| Stelle ohne Personennamen | ✅ Z2 Personal, Aufgabengebiet Zeitwirtschaft | ✅ Personalbereich, Quelle als `[…, Z2]` |
+
+Das Verbot hielt zweimal. Die positive Hälfte derselben Regel feuerte nur einmal.
+In Lauf 2 steht eine fertige Mail da, ohne dass der Nutzer erfährt, wohin damit.
+
+Ursache: die Intranet-Zeile hing als Nebensatz am Verbot
+(„lass die Empfängerzeile weg **und schreib, dass** …"). Der auffällige Teil war
+das Weglassen; der nachgestellte Auftrag fiel weg. Dasselbe Muster wie bei
+„Biete eine E-Mail an": was am Satzende hängt, wird optional gelesen.
+
+Nebenbefund: die neuen Zusatzzeilen kamen in der Sie-Form heraus, während der
+Rest der Antworten duzt. Die Skill hatte die Anrede nie festgelegt.
+
+## Änderungen v12 (18621 Zeichen)
+
+- **§9** die Intranet-Zeile ist keine Nebenbedingung mehr, sondern eine eigene
+  Pflichtzeile mit vorgegebenem Wortlaut: „Die Adresse von [Stelle] findest du
+  im Intranet."
+- **§7** Anrede festgelegt: du gegenüber dem Nutzer, förmlich nur innerhalb der
+  E-Mail-Vorlage.
+- **§11** Prüfung erweitert.
+
 ## Stand
 
-Über die Runden v7, v9 und v10 wurden alle neun Testfälle mindestens einmal
-sauber bestanden, die fünf Kernfälle mehrfach. Offen ist nur die Gegenprobe zu
-v11: **A1** muss den Hinweis behalten und darf keine Adresse mehr erfinden.
+Alle neun Testfälle sind über die Runden v7, v9, v10 und v11 mindestens einmal
+sauber bestanden, die fünf Kernfälle mehrfach. Kein Testfall liefert mehr ein
+falsches Verdikt. Offen ist die Gegenprobe zu v12: **A1 zweimal laufen lassen**,
+beide Male muss die Intranet-Zeile stehen und der Text durchgehend duzen.
