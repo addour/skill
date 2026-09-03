@@ -10,8 +10,8 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v12) |
-| `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11 zum Vergleich |
+| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v13) |
+| `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11, v12 zum Vergleich |
 | `skills/hausinfo-arbeit/TESTS.md` | Testfälle, Ergebnisse, Ursachenanalyse |
 
 ### Versionen
@@ -26,7 +26,8 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 | v9 | 16 916 | kein „Nein" in der Kurz-Zeile bei ❌; Nachbartreffer beendet die Suche; keine Personalnummern |
 | v10 | 17 932 | Hinweis-Block bei ❌ für dokumentierte Verweise; keine erfundenen Organisationseinheiten |
 | v11 | 18 329 | keine erfundenen E-Mail-Adressen oder Telefonnummern |
-| v12 | 18621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
+| v12 | 18 621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
+| v13 | 19 302 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
 
 ## Geplant
 

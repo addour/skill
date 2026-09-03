@@ -219,11 +219,62 @@ selben Lauf nicht geöffnet hat? Tritt das erneut auf, wird es gezielt behoben.
   E-Mail-Vorlage.
 - **§11** Prüfung erweitert.
 
+## Ergebnisse v12 — A1 zweimal
+
+| Prüfpunkt | Lauf 1 (1:19) | Lauf 2 (0:56) |
+|-----------|---------------|---------------|
+| Intranet-Zeile | ✅ | ✅ |
+| durchgehend du | ✅ | ✅ |
+| Internet-Zeile aus §8 | ❌ **fehlt** | ❌ **fehlt** |
+| Quelle selbst geöffnet | ✅ GVP gelesen, Z2 Personal daraus | ❌ GVP nicht geöffnet |
+| keine erfundene Adresse | ✅ | ✅ |
+| Hinweis auf Tz. 5.15 | ✅ | ✅ |
+
+### Selbst verursachter Rückschritt
+
+Die Intranet-Zeile sitzt jetzt zuverlässig, aber sie hat die Internet-Zeile
+verdrängt — in **beiden** Läufen. Ursache ist das Wort in v12: „Dann **endet**
+die Vorlage immer mit dieser eigenen Zeile". Das Modell las „endet" als Ende der
+Antwort und ließ die Zeile aus Abschnitt 8 weg, obwohl Abschnitt 6 sie als letzte
+Zeile vorschreibt. Zwei Vorschriften über dieselbe Position, die spätere gewinnt.
+
+### Erfundene Quelle, zweites Mal und schlimmer
+
+Lauf 2 schrieb: `Z2 (Personal und Soziales, Tz. 11 in DA_Arbeitszeit_OH_2.2.1)`.
+Der Geschäftsverteilungsplan wurde in diesem Lauf nicht geöffnet. Zitiert ist
+eine **andere Datei**: eine Dienstanweisung über Arbeitszeit, die keine
+Organisationseinheiten benennt. Auch der Name ist ausgeschmückt — im
+Geschäftsverteilungsplan heißt die Einheit „Z2 Personal", nicht „Personal und
+Soziales". In der v11-Runde war die Quelle wenigstens noch die richtige Datei.
+
+Damit ist die in der v11-Runde gesetzte Schwelle erreicht: der Fehler ist
+wiederholt aufgetreten und hat sich verschlechtert, also wird er jetzt gezielt
+behoben — nicht durch eine vierte Wiederholung von „such frisch", sondern durch
+eine Zuordnung plus erlaubten Ausweg.
+
+## Änderungen v13 (19 302 Zeichen)
+
+- **§9** die Intranet-Zeile folgt direkt nach der Vorlage und ist ausdrücklich
+  **nicht** die letzte Zeile der Antwort.
+- **§6** die Kreuz-Reihenfolge ist jetzt vollständig durchnummeriert, alle sieben
+  Elemente, mit dem Satz „Keine dieser Zeilen ersetzt eine andere".
+- **§9** Quelle für eine Organisationseinheit ist immer der
+  Geschaeftsverteilungsplan_HZD und nie eine Dienstanweisung. Wurde er in dieser
+  Antwort nicht geöffnet, wird die Stelle **ohne** Quellenangabe genannt, statt
+  eine zu konstruieren.
+- **§11** neue Prüfung: jede zitierte Datei in dieser Antwort selbst geöffnet?
+
 ## Stand
 
-Alle neun Testfälle sind über die Runden v7, v9, v10 und v11 mindestens einmal
-sauber bestanden, die fünf Kernfälle mehrfach. Kein Testfall liefert mehr ein
-falsches Verdikt. Offen ist die Gegenprobe zu v12: **A1 zweimal laufen lassen**,
-beide Male muss die Intranet-Zeile stehen und der Text durchgehend duzen.
-Zusätzlich beobachten, ob eine Quelle zitiert wird, ohne im selben Lauf
-geöffnet worden zu sein.
+Alle neun Testfälle liefern seit v9 das richtige Verdikt. Was seither noch
+auftrat, betraf ausnahmslos die Vollständigkeit und Belegbarkeit der Antwort,
+nicht ihre Richtigkeit.
+
+Wiederkehrendes Muster über alle Runden: **eine Anweisung wird nur so zuverlässig
+befolgt, wie sie im Dokument positioniert ist.** Was als Nebensatz hängt, wird
+optional gelesen (v12). Was eine Position beansprucht, die schon vergeben ist,
+verdrängt die ältere Regel (v13). Was keinen Platz im Format hat, fällt weg (v10).
+
+Gegenprobe zu v13: **A1 zweimal**, beide Male müssen Intranet-Zeile **und**
+Internet-Zeile stehen, in dieser Reihenfolge, und jede eckige Klammer muss zu
+einer in diesem Lauf geöffneten Datei gehören.
