@@ -196,6 +196,20 @@ das Weglassen; der nachgestellte Auftrag fiel weg. Dasselbe Muster wie bei
 Nebenbefund: die neuen Zusatzzeilen kamen in der Sie-Form heraus, während der
 Rest der Antworten duzt. Die Skill hatte die Anrede nie festgelegt.
 
+Zweiter Nebenbefund, noch nicht behoben: Lauf 2 öffnete den
+Geschaeftsverteilungsplan gar nicht, zitierte ihn aber trotzdem als
+`[Geschaeftsverteilungsplan_HZD, Z2]`. Die Kennung Z2 steht nirgends in der
+Skill, kam also aus dem Gedächtnis. Das erklärt zugleich die fehlende
+Intranet-Zeile: Abschnitt 9 beginnt mit dem Auftrag, im
+Geschäftsverteilungsplan zu suchen — wer den Schritt überspringt, überspringt
+den ganzen Block. Die Bibliothek war erreichbar, Lauf 2 las zwei PDFs im
+Volltext und zitierte Tz. 5.15 wörtlich; es war also kein Zugriffsproblem.
+
+Bewusst **keine** neue Regel dafür. §4, §9 und §11 verlangen die frische Suche
+bereits an drei Stellen; eine vierte Wiederholung ändert nichts. Stattdessen
+Beobachtungspunkt für die v12-Runde: zitiert die Antwort eine Datei, die sie im
+selben Lauf nicht geöffnet hat? Tritt das erneut auf, wird es gezielt behoben.
+
 ## Änderungen v12 (18621 Zeichen)
 
 - **§9** die Intranet-Zeile ist keine Nebenbedingung mehr, sondern eine eigene
@@ -211,3 +225,5 @@ Alle neun Testfälle sind über die Runden v7, v9, v10 und v11 mindestens einmal
 sauber bestanden, die fünf Kernfälle mehrfach. Kein Testfall liefert mehr ein
 falsches Verdikt. Offen ist die Gegenprobe zu v12: **A1 zweimal laufen lassen**,
 beide Male muss die Intranet-Zeile stehen und der Text durchgehend duzen.
+Zusätzlich beobachten, ob eine Quelle zitiert wird, ohne im selben Lauf
+geöffnet worden zu sein.
