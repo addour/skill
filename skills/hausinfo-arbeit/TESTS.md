@@ -154,11 +154,29 @@ Seitenzahlen im Geschäftsverteilungsplan driften ebenfalls (23/25, 23/152, 19, 
   nennen (Z2, ZES PA).
 - **§11** zwei neue Prüfungen.
 
-## Nächste Testrunde (v10)
+## Ergebnisse v10 — beide Rückschritte behoben
 
-Nur die beiden Rückschritte prüfen, der Rest ist zweimal in Folge sauber gelaufen.
+| ID | Ergebnis | Dauer | Befund |
+|----|----------|-------|--------|
+| D1 | ✅ **bestanden** | **1:04** (v9: 3:27) | Hinweis-Block da und nennt **OH 2.2.2** samt Geltungsbereich der HZD-DA. Zuständige Stelle jetzt „Personalbereich des jeweiligen Finanzamts" und örtlicher Personalrat — keine erfundene Einheit mehr. |
+| A1 | ⚠️ bestanden, ein neuer Fehler | 1:16 | Hinweis auf Tz. 5.15 ist zurück, mit Wortlaut und der Einordnung „gilt nur für mobiles Arbeiten". Aber die Vorlage endet mit **`E-Mail-Adresse: Personalbereich@hzd.hessen.de`** — diese Adresse steht in keiner Datei. |
+| B1 | ✅ **bestanden** | 1:14 | ✅ Haken unverändert, der neue Hinweis-Block fasst ✅-Antworten nicht an. Inhaltlich die bisher vollständigste Fassung: beide Grenzen, Vorbehalt in Regel und Wichtig, vier Schritte mit Quellen, Begriff „Vertretung" ergänzt. |
 
-1. **D1 Finanzamt** — muss **OH 2.2.2 namentlich** nennen und darf keine erfundene
-   Stelle nennen.
-2. **A1 Stempeln** — muss den Hinweis auf Tz. 5.15 mit Geltungsbereich wieder enthalten.
-3. **B1 Gleittage** — Gegenprobe: muss ✅ bleiben, der neue Hinweis-Block darf ✅-Antworten nicht anfassen.
+### Ein neuer Fehler
+
+Erfundene Kontaktdaten. §9 verlangte eine fertige E-Mail und sagte nichts über
+die Empfängeradresse, also ergänzte das Modell eine plausibel aussehende. Eine
+falsche Adresse ist schlimmer als keine: die Mail sieht abgeschickt aus und kommt
+nirgends an.
+
+## Änderungen v11 (18 329 Zeichen)
+
+- **§9** keine E-Mail-Adresse, Telefonnummer oder Anschrift ohne Beleg. Ohne Beleg
+  bleibt die Empfängerzeile weg, mit dem Hinweis, sie im Intranet nachzuschlagen.
+- **§11** eine neue Prüfung.
+
+## Stand
+
+Über die Runden v7, v9 und v10 wurden alle neun Testfälle mindestens einmal
+sauber bestanden, die fünf Kernfälle mehrfach. Offen ist nur die Gegenprobe zu
+v11: **A1** muss den Hinweis behalten und darf keine Adresse mehr erfinden.
