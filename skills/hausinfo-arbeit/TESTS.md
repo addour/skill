@@ -51,10 +51,40 @@ Drei Widersprüche **im Dokument**, nicht im Modell:
 - **§9** „bei **jedem** Kreuz"; Personalbereich für Arbeitszeit und Abwesenheiten; Auffanglösung Personalbereich + Personalrat.
 - **§11** zwei neue Prüfungen: Lückensatz bei 🟡, Begründung aus gelesenem Text statt aus der Themenkarte.
 
-## Nächste Testrunde (v7)
+## Ergebnisse v7 (15 974 Zeichen)
 
-1. **B7 Jobticket** — muss in **unter 30 Sekunden** ❌ + Personalbereich + E-Mail liefern. Doppeltest: prüft die Negativliste (Mitte der Datei) **und** §9 (hinten) → beweist zugleich, dass die Datei vollständig geladen ist.
-2. **A1 Stempeln** — muss einen Satz enthalten wie „Für eine vergessene Stempelung am Dienstgebäude steht in den Unterlagen keine Korrekturregel."
-3. **B1 Gleittage** — muss ✅ bleiben, mit beiden Grenzen.
-4. **D1 Finanzamt** — muss ❌ bleiben.
-5. **A2 Sportkurs** — muss ❌ bleiben, jetzt sofort über die Negativliste.
+**Ladeprüfung bestanden.** In beiden Läufen feuerte Abschnitt 9 (hinten in der Datei),
+in A1 wurde zusätzlich die E-Mail-Vorlage aus Abschnitt 12 benutzt, und der
+Fallen-Block aus Abschnitt 2 wurde im Denkprotokoll wörtlich zitiert.
+Die Datei wird bei ~16 000 Zeichen vollständig geladen.
+
+| ID | Ergebnis | Befund |
+|----|----------|--------|
+| B7 | ⚠️ fast | ❌ richtig, Kurz-Zeile korrekt („steht nichts in den Unterlagen"), Z2 Personal genannt, Internet-Zeile da. Dauer **56 s statt 2:37**. Zwei Fehler: die E-Mail wurde nur **angeboten** („Möchtest du eine E-Mail-Vorlage?") statt geschrieben, und der Personenname kam falsch heraus. |
+| A1 | ✅ **bestanden** | ❌ mit dem Lückensatz „Für eine vergessene Stempelung am Dienstgebäude gibt es in den Unterlagen keine Regel.", Tz. 5.15 nur als Hinweis mit Geltungsbereich, Z2 Personal, vollständige E-Mail, Internet-Zeile. Dauer 1:56 statt 3:13. **Der Kernfehler aus v4 bis v6 ist weg.** |
+
+### Zwei neue Befunde
+
+1. **Personennamen werden verstümmelt.** Derselbe Name kam in drei Läufen als
+   *Tellschaft*, *Tesellschaft* und *Tgesellschaft* heraus — in B7 schrieb das Modell
+   im Denkprotokoll noch die eine Schreibweise und im Antworttext eine andere.
+   Ein falscher Name in einer E-Mail an den Personalbereich ist nicht korrigierbar.
+2. **„Biete eine E-Mail an" wurde als Rückfrage gelesen.** In B7 fragte das Modell,
+   ob eine Vorlage gewünscht sei; in A1 schrieb es sie aus. Dieselbe Regel, zwei
+   Verhalten — die Formulierung war mehrdeutig.
+
+## Änderungen v8 (16 335 Zeichen)
+
+- **§2 Fallen** keine Personennamen mehr aus dem Geschäftsverteilungsplan, nur die
+  Organisationseinheit mit Aufgabe. Begründung steht in der Regel selbst.
+- **§9** „Schreib die E-Mail vollständig aus … Frag nicht, ob der Nutzer eine Vorlage
+  möchte, sondern liefere sie fertig zum Kopieren."
+- **§6** bei Kreuz „mit vollständig ausgeschriebener E-Mail".
+- **§11** zwei neue Prüfungen: E-Mail ausgeschrieben statt angeboten, kein Personenname.
+
+## Nächste Testrunde (v8)
+
+1. **B7 Jobticket** — E-Mail muss fertig dastehen, ohne Rückfrage, ohne Personennamen.
+2. **B1 Gleittage** — muss ✅ bleiben, mit beiden Grenzen. Noch nicht auf v7 geprüft.
+3. **D1 Finanzamt** — muss ❌ bleiben. Noch nicht auf v7 geprüft.
+4. **A2 Sportkurs** — muss ❌ bleiben, jetzt über die Negativliste. Noch nicht auf v7 geprüft.

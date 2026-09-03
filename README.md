@@ -10,8 +10,8 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v7) |
-| `skills/hausinfo-arbeit/versions/` | v4, v6 zum Vergleich |
+| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v8) |
+| `skills/hausinfo-arbeit/versions/` | v4, v6, v7 zum Vergleich |
 | `skills/hausinfo-arbeit/TESTS.md` | Testfälle, Ergebnisse, Ursachenanalyse |
 
 ### Versionen
@@ -22,6 +22,7 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 | v5 | 12 025 | + Selbstprüfung, + E-Mail-Vorlagen |
 | v6 | 13 090 | Abschnitt 5 neu: Modus bewertet die gestellte Frage, Geltungsbereich, kein Ersatz, Schweigen ist kein Nein |
 | v7 | 15 974 | Widersprüche zwischen §2/§5 und zwischen §6/§8/§9 aufgelöst; Negativliste; Lückensatz-Pflicht bei 🟡 |
+| v8 | 16 335 | keine Personennamen; E-Mail wird ausgeschrieben statt angeboten |
 
 ## Geplant
 
