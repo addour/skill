@@ -115,12 +115,50 @@ wenn er dort steht" — die v7-Fassung von Abschnitt 9.
 - **§4** auch nach Vorbehalten suchen („soweit dienstliche Gründe nicht entgegenstehen").
 - **§11** zwei neue Prüfungen.
 
-## Nächste Testrunde (v9)
+## Ergebnisse v9 — 5 von 5 Verdikten richtig
 
-Alles auf **v9** laufen lassen, v8 wurde nie getestet.
+| ID | Ergebnis | Dauer | Befund |
+|----|----------|-------|--------|
+| A2 | ✅ **bestanden** | **1:13** (v7: 3:20) | Alle drei v9-Korrekturen auf einmal belegt: Kurz-Zeile ohne „Nein", BGM ohne Personennamen und ohne ANr., und die Suche brach beim Nachbartreffer ab. |
+| B1 | ✅ **bestanden** | 1:39 | ✅ Haken, beide Grenzen, und der in v7 verlorene Vorbehalt ist zurück: „Dienstliche Gründe können die Genehmigung einschränken [Tz. 5.4]". Dazu neu der Genehmigungsschritt aus Tz. 2.5. |
+| B7 | ✅ **bestanden** | 1:46 | ❌ richtig, ZES PA mit Aufgabe und Quelle, keine Namen, E-Mail ausgeschrieben. Die längere Dauer kam von zwei Tool-Signaturfehlern, nicht vom Skill. |
+| A1 | ⚠️ bestanden mit Verlust | 1:42 | ❌ mit Lückensatz, Z2 Personal, E-Mail. Aber der Hinweis auf Tz. 5.15 aus v7 fehlt. |
+| D1 | ⚠️ bestanden mit Verlust | 3:27 | ❌ richtig. Aber **OH 2.2.2 kommt in der Antwort nicht mehr vor**, und die genannte Stelle „Personalbereich des Hessischen Finanzressorts" steht so in keiner Datei — der Geschäftsverteilungsplan beschreibt die HZD, nicht das Finanzressort. |
 
-1. **A2 Sportkurs** — Kurz-Zeile ohne „Nein", keine Namen, keine ANr., deutlich unter 3:20.
-2. **B7 Jobticket** — E-Mail ausgeschrieben, ohne Personennamen.
-3. **B1 Gleittage** — muss ✅ bleiben, jetzt **mit** dem Vorbehalt „dienstliche Gründe".
-4. **A1 Stempeln** — muss ❌ mit Lückensatz bleiben.
-5. **D1 Finanzamt** — muss ❌ bleiben.
+### Ein Befund, zwei Symptome
+
+A1 und D1 verloren beide genau das, was die Unterlagen zum Fall **doch** sagen,
+ohne ihn zu regeln: bei A1 den Geltungsbereich von Tz. 5.15, bei D1 den Namen
+der zuständigen Dienstvereinbarung OH 2.2.2. Für den Nutzer ist gerade das die
+wertvollste Zeile — sie sagt ihm, nach welchem Dokument er fragen muss.
+
+Ursache ist dieselbe Bauart wie die Widersprüche in v6: **die feste Kreuz-Reihenfolge
+in §6 hatte für so eine Zeile keinen Platz**, und §2 verlangte sie trotzdem
+(„nenne Tz. 5.15 höchstens als Hinweis"). Wo das Format keinen Ort vorsieht,
+fällt der Inhalt weg.
+
+Dazu ein zweiter Befund aus D1: fehlt eine passende Einheit, erfindet das Modell
+eine plausible statt zu sagen, dass sie nicht in den Unterlagen steht.
+Seitenzahlen im Geschäftsverteilungsplan driften ebenfalls (23/25, 23/152, 19, 21).
+
+## Änderungen v10 (17 932 Zeichen)
+
+- **§6** neuer optionaler **Hinweis**-Block bei ❌: ein bis zwei Sätze für das,
+  was die Unterlagen zum Fall sagen, ohne ihn zu regeln. Mit Quelle, mit dem
+  Zusatz, dass es keine Regel für den gefragten Fall ist, und ohne dass ❌ dadurch
+  zu 🟡 wird.
+- **§9** keine erfundenen Organisationseinheiten; fehlt eine, wird das gesagt.
+  Der Geschäftsverteilungsplan beschreibt die HZD und gilt nicht für ein Finanzamt —
+  dort Personalbereich des jeweiligen Finanzamts und örtlicher Personalrat.
+- **§2** im Geschäftsverteilungsplan statt der Seitenzahl die Organisationskennung
+  nennen (Z2, ZES PA).
+- **§11** zwei neue Prüfungen.
+
+## Nächste Testrunde (v10)
+
+Nur die beiden Rückschritte prüfen, der Rest ist zweimal in Folge sauber gelaufen.
+
+1. **D1 Finanzamt** — muss **OH 2.2.2 namentlich** nennen und darf keine erfundene
+   Stelle nennen.
+2. **A1 Stempeln** — muss den Hinweis auf Tz. 5.15 mit Geltungsbereich wieder enthalten.
+3. **B1 Gleittage** — Gegenprobe: muss ✅ bleiben, der neue Hinweis-Block darf ✅-Antworten nicht anfassen.
