@@ -278,3 +278,76 @@ verdrängt die ältere Regel (v13). Was keinen Platz im Format hat, fällt weg (
 Gegenprobe zu v13: **A1 zweimal**, beide Male müssen Intranet-Zeile **und**
 Internet-Zeile stehen, in dieser Reihenfolge, und jede eckige Klammer muss zu
 einer in diesem Lauf geöffneten Datei gehören.
+
+## Runde v14 — die Themenkarte schlug vier Mal den gelesenen Text
+
+Vier Kontrollfragen, alle vier mit **Kreuz** beantwortet, alle vier falsch.
+Der Suchverlauf desselben Laufs zeigt jedes Mal einen echten Fund:
+
+| Frage | Fund im Lauf | ausgegeben |
+|---|---|---|
+| Kann ich IT-Ausstattung bestellen? | `Z7 Beschaffung, Lizenzmanagement` — „Beantragungs- und Beschaffungsprozesse für IT- und Non-IT-Bedarfe" | Kreuz |
+| Gibt es einen Fortbildungskatalog? | `K2 IT-Fortbildung` — „Organisation und Koordination der Seminarplanung" | Kreuz |
+| Gibt es einen Betriebsarzt? | Betriebsarzt namentlich im Geschäftsverteilungsplan, Arbeitsschutzausschuss ASA | Kreuz |
+| Gibt es eine Kantine? | Kantinenausschuss im Geschäftsverteilungsplan | Kreuz |
+
+Die Begründung im Lauf benennt die Ursache selbst: *„Laut der Themenkarte sind
+alle vier Fragen explizit in der Liste ‚Nicht in der Bibliothek' … Das bedeutet,
+ich muss für jede Frage mit Kreuz antworten."*
+
+### Ursache: drei Regeln, die zusammen jeden Fund entwerten
+
+1. Die Negativliste enthielt alle vier Themen und schrieb vor: „Suche höchstens
+   zweimal, dann antworte mit Kreuz."
+2. Der Satz, der nach dem Sportkurs-Fehler dazukam — „Findest du dabei nur eine
+   thematisch benachbarte Organisationseinheit, ist das kein Treffer … Hör dort
+   auf zu suchen" — machte aus **jedem** Fund im Geschäftsverteilungsplan einen
+   Nicht-Treffer.
+3. §5 „Nachbarthema erkennen" bestätigte das ein drittes Mal.
+
+Der zweite Satz stammt aus der vorigen Runde und war als Bremse gegen einen
+falschen Haken gedacht. Er bremste stattdessen die richtige Antwort weg. Das ist
+derselbe Mechanismus wie bei v13: eine neu eingesetzte Regel verdrängt die
+ältere, die an derselben Stelle stand.
+
+### Die fehlende Unterscheidung
+
+Keine der drei Regeln fragt, **was gefragt war**. Dieselbe Fundstelle beantwortet
+„Gibt es eine Kantine?" wörtlich und „Wie bestelle ich IT-Ausstattung?" gar
+nicht. Ohne diese Unterscheidung muss jede Regel, die für den einen Fall richtig
+ist, im anderen falsch sein.
+
+## Änderungen v14 (23 079 Zeichen)
+
+- **§5 Existenzfrage.** Fragt der Nutzer, ob es etwas gibt, ist die Frage
+  wörtlich beantwortet, sobald eine Datei die Sache, ein Gremium dafür oder eine
+  Organisationseinheit nennt, deren Aufgabe sie ist. Ein Kantinenausschuss belegt
+  eine Kantine. Das ist Haken, mit dem Zusatz, was die Unterlagen **nicht** sagen.
+- **§5 Abgrenzung.** Ein Satz, der beide Fälle nebeneinanderstellt: wer nach dem
+  Verfahren fragt, bekommt bei dieser Fundstelle Gelb; wer nach der Existenz
+  fragt, bekommt Haken. „Lies die Frage, bevor du den Modus wählst."
+- **§5 Kreuz-Voraussetzung.** Kreuz setzt voraus, dass **keine** Datei die Sache
+  erwähnt. „Der gelesene Text schlägt die Themenkarte, immer."
+- **§2 Negativliste.** Fünf widerlegte Einträge gestrichen (Kantine,
+  Gesundheitsmanagement, Sportkurse, Betriebsarzt, Fortbildungskatalog,
+  Bestellung von IT-Ausstattung). Der Satz „Hör dort auf zu suchen" ist ersetzt
+  durch einen **Pflichtblick** in den Geschäftsverteilungsplan nach den zwei
+  Suchen: findet er etwas, entscheidet der Fund und nicht die Liste.
+- **§2 Themenkarte.** Vier neue Zeilen für Beschaffung, Fortbildung,
+  Arbeitsschutz und Kantine, jede mit dem ausdrücklichen Zusatz, was die Datei
+  **nicht** enthält.
+- **§2 Nicht für Arbeitsfragen.** `bisher keine` ersetzt durch das
+  Gesundheitstage-Programm plus die Regel: eine Datei ohne Regelungsinhalt ist
+  keine Quelle für eine Regel, aber ein Beleg dafür, dass es die Sache gibt.
+- **§9 Namensverbot.** Stand bisher nur als Falle in §2 mit Querverweis; der
+  Verweis wurde ignoriert. Jetzt vollständig in §9 selbst, samt `ANr.`, samt der
+  Anweisung, die Organisationskennung statt der Seitenzahl zu nennen.
+- **§11** drei neue Prüffragen dazu.
+
+### Gegenprobe zu v14
+
+Dieselben vier Fragen. Erwartet: Betriebsarzt und Kantine **Haken**,
+IT-Ausstattung und Fortbildungskatalog **Haken für die Existenz** mit dem Satz,
+dass Bestellweg beziehungsweise Katalog nicht in den Unterlagen stehen. In keiner
+der vier Antworten darf ein Personenname, eine `ANr.` oder eine Seitenzahl aus
+dem Geschäftsverteilungsplan stehen.

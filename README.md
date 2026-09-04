@@ -10,8 +10,8 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v13) |
-| `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11, v12 zum Vergleich |
+| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v14) |
+| `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11, v12, v13 zum Vergleich |
 | `skills/hausinfo-arbeit/TESTS.md` | Testfälle, Ergebnisse, Ursachenanalyse |
 
 ### Erste echte Pflege durch dokumentenkarte-pflegen
@@ -45,6 +45,36 @@ falsch wird. Acht Dateien sind noch offen, sie folgen in drei weiteren Stapeln.
 | v11 | 18 329 | keine erfundenen E-Mail-Adressen oder Telefonnummern |
 | v12 | 18 621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
 | v13 | 19 544 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
+| v14 | 23 079 | Existenzfrage von Verfahrensfrage getrennt; die Negativliste entscheidet keine Antwort mehr; Namensverbot in §9 statt als Querverweis |
+
+### Was der Sportkurs-Fehler wirklich war
+
+Nach der ersten automatischen Pflege beantwortete der Skill die Frage nach einem
+Sportkurs mit ❌ „nichts dazu in den Unterlagen" — obwohl er im selben Lauf
+Betriebssportgruppen im Gesundheitstage-Programm gefunden hatte. Vier
+Kontrollfragen danach (IT-Ausstattung, Fortbildungskatalog, Betriebsarzt,
+Kantine) fielen genauso aus: jedes Mal ein echter Fund im
+Geschäftsverteilungsplan, jedes Mal ❌.
+
+Es war kein Suchfehler. Der Skill fand alles und verwarf es anschließend, weil
+drei Regeln ihm das vorschrieben: die veraltete Negativliste in §2, der Satz
+„Hör dort auf zu suchen" und §5 „Nachbarthema erkennen". Keine der drei fragte,
+**was gefragt war**. Dieselbe Fundstelle beantwortet „Gibt es eine Kantine?"
+wörtlich und „Wie bestelle ich IT-Ausstattung?" gar nicht — ohne diese
+Unterscheidung muss jede Regel im einen Fall falsch sein, wenn sie im anderen
+richtig ist.
+
+v14 trennt beides (**Existenzfrage** gegen **Verfahrensfrage**) und kehrt das
+Verhältnis zwischen Karte und Text um: die Negativliste kürzt die Suche ab,
+entscheidet die Antwort aber nicht mehr. Nach den zwei Suchen steht jetzt ein
+Pflichtblick in den Geschäftsverteilungsplan; findet er etwas, gilt der Fund.
+
+Der Nebenbefund derselben Läufe: das Verbot von Personennamen und
+Personalnummern stand seit v9 im Dokument, aber als Falle in §2 mit einem
+Querverweis aus §9. Die Antworten nannten trotzdem Namen und `ANr.`-Nummern. Der
+Querverweis wurde gelesen und nicht befolgt. In v14 steht das Verbot dort, wo die
+zuständige Stelle geschrieben wird — dasselbe Positionsmuster wie in v10, v12
+und v13.
 
 ## dokumentenkarte-pflegen
 
