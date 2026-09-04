@@ -38,7 +38,7 @@ Rückfrage selbst ein, per `search_replace` auf
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v4), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v5), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -48,7 +48,24 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v4`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v5`.
+
+Der erste Lauf mit echtem Zuwachs (9 auf 19 Dateien) scheiterte: der Skill
+öffnete Dokumente über vierzig Mal, wiederholte dieselben Bewertungen und brach
+nach knapp sieben Minuten mitten im Satz ab, ohne etwas einzutragen. Ursache war
+eine fehlende Aufwandsgrenze — §3 verlangte, jede neue Datei zu öffnen, und bei
+zehn neuen Dateien, darunter mehrere sehr große, trägt das nicht. Deshalb steht
+in v5 ein Abschnitt 0 über allem: höchstens drei neue Dateien pro Lauf, jede
+Datei höchstens einmal öffnen, abgeschnittene Ausgabe akzeptieren statt
+nachzuladen, und bei Wiederholung sofort entscheiden. Ein teilweise gepflegter,
+aber eingetragener Abschnitt 2 schlägt einen Lauf, der nichts erreicht.
+
+Dazu kam ein zweiter Befund: der Lauf sortierte von sich aus Dateien als
+"nicht relevant" aus (ein Programmheft, zwei Strategiepapiere), ohne dass es
+dafür einen Platz gab. Solche Dateien würden bei jedem weiteren Lauf erneut
+gelesen und von `hausinfo-arbeit` als unbekannt gemeldet. Abschnitt 2 bekommt
+deshalb einen vierten Block, **Nicht für Arbeitsfragen**, mit Dateiname und
+einer Zeile Begründung.
 
 Weil der Skill jetzt in eine Datei schreibt, die täglich benutzt wird, sitzen
 zwischen Bauen und Schreiben zwei Sperren: eine mechanische Selbstprüfung mit
