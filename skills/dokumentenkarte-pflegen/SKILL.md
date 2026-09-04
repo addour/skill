@@ -15,12 +15,15 @@ ABSCHNITT 0   AUFWANDSGRENZE
 
 Diese Regeln gelten fuer den ganzen Lauf und stehen ueber allen anderen.
 
-Grenze 1   Bearbeite in einem Lauf hoechstens drei neue Dateien. Gibt es mehr,
-           nimm die ersten drei aus der Liste, schreibe den Abschnitt 2 mit
-           diesen dreien, und sag am Ende: noch N Dateien offen, sag
-           weitermachen fuer die naechsten drei. Ein unvollstaendiger, aber
-           eingetragener Abschnitt 2 ist besser als ein Lauf, der nichts
-           erreicht.
+Grenze 1   Bearbeite in einem Lauf hoechstens drei neue Dateien. Die Auswahl
+           faellt sofort nach dem Namensvergleich in Abschnitt 2 und immer
+           bevor du die erste Datei anschaust. Du brauchst keinen Inhalt, um zu
+           sehen, dass ein Name noch nicht in Abschnitt 2 steht. Die uebrigen
+           neuen Dateien ruehrst du in diesem Lauf nicht an, weder mit Suche
+           noch mit Lesen, und du bewertest sie auch nicht im Kopf. Sag am
+           Ende: noch N Dateien offen, sag weitermachen fuer die naechsten
+           drei. Ein unvollstaendiger, aber eingetragener Abschnitt 2 ist
+           besser als ein Lauf, der nichts erreicht.
 
 Grenze 2   Oeffne jede Datei hoechstens einmal pro Lauf. Wird die Ausgabe
            abgeschnitten, ist das in Ordnung. Der Anfang der Datei reicht.
@@ -62,6 +65,11 @@ diesem Lauf nicht selbst gelesen hast.
 
 ABSCHNITT 2   VERGLEICHEN
 
+Vergleiche zuerst nur die Namen. Oeffne dafuer keine Datei und suche nicht.
+Beim Vergleich zaehlen die Endung .pdf, ein angehaengtes (1) und Gross- oder
+Kleinschreibung nicht mit: Anleitung Vitero.pdf und Anleitung Vitero sind
+dieselbe Datei.
+
 Ordne jede Datei genau einer Gruppe zu.
 
 Gruppe unveraendert   steht in der Bibliothek und in Abschnitt 2, gleich in
@@ -77,8 +85,11 @@ Ist alles unveraendert, gib nur einen Satz aus: die Dokumentenkarte ist aktuell,
 N Dateien, keine Aenderung. Dann hoere auf. Schreibe in diesem Fall nichts und
 gib auch keinen Abschnitt 2 aus.
 
-Sind es mehr als drei neue Dateien, gilt Grenze 1 aus Abschnitt 0. Sag gleich
-zu Beginn, wie viele neu sind und welche drei du in diesem Lauf nimmst.
+Sind es mehr als drei neue Dateien, gilt Grenze 1 aus Abschnitt 0. Sag hier,
+an dieser Stelle und vor jedem Blick in eine Datei, wie viele neu sind und
+welche drei du in diesem Lauf nimmst. Ab jetzt existieren die anderen fuer
+diesen Lauf nicht mehr. Alles Weitere, also Abschnitt 3 bis Abschnitt 6,
+betrifft nur diese drei.
 
 
 ABSCHNITT 3   NEUE DATEI EINORDNEN
@@ -152,16 +163,21 @@ ABSCHNITT 6   LISTE NICHT IN DER BIBLIOTHEK PRUEFEN
 Diese Liste ist eine Behauptung ueber die Bibliothek und veraltet mit jeder
 neuen Datei. Eine falsche Behauptung dort erzeugt eine falsche Kreuz-Antwort.
 
-Suche zu jedem Eintrag der Liste einmal in der Bibliothek. Findest du einen
-echten Treffer, also den Begriff selbst und nicht ein Nachbarthema, dann nimm
-den Eintrag aus der Liste. Gehoert der Treffer zu einer Datei in der
+Pruefe die Liste nicht gegen die ganze Bibliothek, sondern nur gegen die
+Dateien, die du in diesem Lauf eingeordnet hast. Nur sie sind neu, nur sie
+koennen die Liste veraltet gemacht haben. Die uebrigen kommen in ihrem eigenen
+Lauf an die Reihe.
+
+Geh die Eintraege der Liste durch und pruefe, ob eine der Dateien aus diesem
+Lauf das Thema abdeckt. Findest du einen echten Treffer, also den Begriff
+selbst und nicht ein Nachbarthema, dann nimm den Eintrag aus der Liste. Gehoert der Treffer zu einer Datei in der
 Themenkarte, schreib dort die Suchwoerter dazu. Gehoert er zu einer Datei aus
 dem Block Nicht fuer Arbeitsfragen, sag im Aenderungsbericht, dass es das Thema
 gibt, die Datei aber keine Regelung enthaelt.
 
 Ein Nachbarthema ist kein Treffer und der Eintrag bleibt.
 
-Gibt es keine neuen Dateien, ueberspringe diesen Abschnitt.
+Hast du in diesem Lauf keine Datei eingeordnet, ueberspringe diesen Abschnitt.
 
 
 ABSCHNITT 7   FALLEN
@@ -270,4 +286,4 @@ Du legst keinen neuen Skill an, loeschst keinen und benennst keinen um. Du
 aenderst keine andere Datei als die eine Zieldatei.
 
 
-ENDE dokumentenkarte-pflegen v5
+ENDE dokumentenkarte-pflegen v6

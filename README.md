@@ -38,7 +38,7 @@ Rückfrage selbst ein, per `search_replace` auf
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v5), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v6), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -48,7 +48,18 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v5`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v6`.
+
+Der zweite Lauf blieb im Rahmen: keine Wiederholungen, keine Doppellesungen,
+und er fand einen echten Fehler — `Informationsblatt_Datenschutz_Vitero_HZD`
+wird in der Themenkarte referenziert, liegt aber nicht mehr in der Bibliothek.
+Abgebrochen ist er trotzdem, weil die Aufwandsgrenze zu spät griff: erst wurden
+alle zwölf neuen Dateien eingeordnet, dann die Auswahl auf drei beschränkt. In
+v6 fällt die Auswahl deshalb direkt nach dem Namensvergleich und vor dem ersten
+Blick in eine Datei; die übrigen sind für den Lauf nicht mehr vorhanden. Die
+Prüfung der Liste **Nicht in der Bibliothek** läuft nur noch gegen die Dateien
+dieses Laufs statt gegen die ganze Bibliothek, und der Namensvergleich ignoriert
+`.pdf`, ein angehängtes `(1)` und Groß- oder Kleinschreibung.
 
 Der erste Lauf mit echtem Zuwachs (9 auf 19 Dateien) scheiterte: der Skill
 öffnete Dokumente über vierzig Mal, wiederholte dieselben Bewertungen und brach
