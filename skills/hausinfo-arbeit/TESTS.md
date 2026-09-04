@@ -351,3 +351,56 @@ IT-Ausstattung und Fortbildungskatalog **Haken für die Existenz** mit dem Satz,
 dass Bestellweg beziehungsweise Katalog nicht in den Unterlagen stehen. In keiner
 der vier Antworten darf ein Personenname, eine `ANr.` oder eine Seitenzahl aus
 dem Geschäftsverteilungsplan stehen.
+
+## Gegenprobe v14 — Hauptfehler behoben, zwei Restfehler
+
+Dieselben vier Fragen. Alle vier jetzt **✅ Haken**, alle vier richtig. Der Lauf
+begründet es selbst mit der neuen Regel: *„Da es sich um Existenzfragen handelt
+und die Unterlagen die Sache selbst, ein Gremium dafür oder eine
+Organisationseinheit nennen, sind alle Antworten mit Haken zu bewerten."*
+
+Die `ANr.`-Nummern sind verschwunden, und die Namen der ASA-Mitglieder blieben im
+Suchverlauf, ohne in die Antwort zu geraten. Das Verbot in §9 wirkt.
+
+Zwei Fehler blieben, beide wieder Lücken im Dokument, nicht Ungehorsam:
+
+### Ein Personenname stand doch in der Antwort
+
+> „Der Betriebsarzt **Dr. med. Michael Bauer** (Facharzt für Arbeitsmedizin …)"
+
+Der Name kam aus `Gesundheitstage-2026-Wiesbaden-Programm`, nicht aus dem
+Geschäftsverteilungsplan. Beide Fassungen des Verbots begannen mit „Nenne **aus
+dem Geschäftsverteilungsplan** …" — der Skill hat die Regel wörtlich befolgt und
+sie auf die andere Datei nicht angewandt. Das Verbot war an die falsche
+Bedingung gehängt.
+
+### Seitenzahlen statt Organisationskennung, obwohl §9 sie verbietet
+
+Alle vier Antworten zitierten `Seite 124–125`, `Seite 102–103`, `Seite 145`,
+`Seite 152`. §9 verbot das ausdrücklich. Aber §4 Quellenzwang verlangte seit v4
+*„eine Quelle mit Datei, Abschnitt und **Seite**"* — die allgemeine Zitierregel
+stand vor der speziellen und gewann. Der Lauf verbrachte zudem gut eine halbe
+Minute damit, Seitenzahlen per `grep` zu suchen, weil eine Falle in §2 erklärte,
+woher Seitenzahlen stammen.
+
+Dazu ein drittes, kleineres: §5 verlangt bei einer Existenzfrage einen Satz über
+das, was **fehlt**. Nur die Antwort zum Fortbildungskatalog hatte ihn. Er hing
+als Nebensatz in der Regel und hatte keinen eigenen Platz im Antwortformat —
+dasselbe Muster wie v10 und v12.
+
+## Änderungen v15 (24 422 Zeichen)
+
+- **§4** die Seite ist kein Pflichtbestandteil der Quelle mehr. Die Quelle nennt
+  Datei plus Abschnitt oder Tz., bei einer Einheit die Organisationskennung. Im
+  Geschäftsverteilungsplan ist die Seite verboten, mit Begründung: die Seiten
+  verschieben sich bei jeder Fassung, die Kennung bleibt.
+- **§2 Falle** „Seitenzahlen sind nie nötig. Suche nicht nach ihnen."
+- **§2 und §9** das Verbot von Namen und Personalnummern hängt nicht mehr am
+  Geschäftsverteilungsplan, sondern gilt für **jede** Datei, ausdrücklich auch
+  für Veranstaltungsprogramme und Teilnehmerlisten.
+- **§6** die Lückenzeile bekommt einen eigenen Platz im Format: bei einer
+  Existenzfrage mit Haken steht nach der Regel eine eigene Zeile, die mit
+  „Nicht in den Unterlagen" beginnt, gefolgt von der zuständigen Stelle.
+- **§11** drei Prüffragen waren invertiert formuliert — bei „Ist eine Antwort
+  nein, korrigiere zuerst" hätte ein *Ja* dort einen Fehler bedeutet. Umgedreht.
+  Eine doppelte Namensfrage entfernt.

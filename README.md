@@ -10,8 +10,8 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v14) |
-| `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11, v12, v13 zum Vergleich |
+| `skills/hausinfo-arbeit/SKILL.md` | aktuelle Fassung (v15) |
+| `skills/hausinfo-arbeit/versions/` | v4, v6–v14 zum Vergleich |
 | `skills/hausinfo-arbeit/TESTS.md` | Testfälle, Ergebnisse, Ursachenanalyse |
 
 ### Erste echte Pflege durch dokumentenkarte-pflegen
@@ -46,6 +46,7 @@ falsch wird. Acht Dateien sind noch offen, sie folgen in drei weiteren Stapeln.
 | v12 | 18 621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
 | v13 | 19 544 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
 | v14 | 23 079 | Existenzfrage von Verfahrensfrage getrennt; die Negativliste entscheidet keine Antwort mehr; Namensverbot in §9 statt als Querverweis |
+| v15 | 24 422 | Namensverbot gilt für jede Datei; die Seite ist kein Pflichtteil der Quelle mehr; Lückenzeile bekommt einen Platz im Format |
 
 ### Was der Sportkurs-Fehler wirklich war
 
