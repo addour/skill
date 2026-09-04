@@ -37,8 +37,16 @@ Abschnitt 2 zum Kopieren, ändert nichts anderes.
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v1) |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | Anweisungstext (v2 plain), ohne Markdown-Syntax |
+| `skills/dokumentenkarte-pflegen/VIBE-felder.txt` | Name und Beschreibung für die beiden Formularfelder |
+
+Vibe speichert Name und Beschreibung in eigenen Formularfeldern und rendert den
+Anweisungstext als Markdown. Beides zusammen führte dazu, dass beim Zurücklesen
+das Frontmatter fehlte und Überschriften wie Absätze verschwanden. Deshalb
+enthält `SKILL.md` hier bewusst keine Markdown-Zeichen: kein `#`, kein `-`,
+kein Frontmatter. Was der Nutzer sieht, ist damit exakt das, was gespeichert ist.
+Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v2 plain`.
 
 Der Anschluss an `hausinfo-arbeit` braucht keine Änderung an dessen Datei:
 §10 verweist den Nutzer bereits auf das Stichwort **Dokumentenkarte aktualisieren**,
-und die description dieses Skills löst genau darauf aus.
+und die Beschreibung dieses Skills löst genau darauf aus.

@@ -1,0 +1,5 @@
+Feld Name
+dokumentenkarte-pflegen
+
+Feld Beschreibung
+Verwende diesen Skill, wenn der Nutzer Dokumentenkarte aktualisieren, Themenkarte aktualisieren, Dokumentenkarte prüfen oder Abschnitt 2 neu bauen sagt. Ebenso, wenn sich die Bibliothek "Arbeit docs" geändert hat, also eine Datei dazugekommen, entfernt oder umbenannt wurde, oder wenn der Skill hausinfo-arbeit gemeldet hat, dass die Themenkarte veraltet scheint. Liefert einen fertigen Abschnitt 2 zum Einsetzen in hausinfo-arbeit.
