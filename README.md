@@ -55,7 +55,7 @@ Rückfrage selbst ein, per `search_replace` auf
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v8), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v9), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -65,7 +65,21 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v8`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v9`.
+
+Der zweite Stapel lief fest, und zwar an einer einzigen Datei:
+`Infoblatt_Beurlaubung_2023` stammt vom Ministerium, nicht von der HZD. Für
+diesen Fall gab es keinen Platz — Abschnitt 4 kannte drei Arten von Dateien
+ohne Regelungsinhalt, ein anderer Geltungsbereich war keine davon, und der
+Ausweg in Abschnitt 3 galt nur für einen *unklaren* Geltungsbereich. Hier war
+er klar, nur eben anders. Der Lauf bewertete die Datei achtmal und brach ab.
+
+v9 schließt die Lücke an drei Stellen: der Geltungsbereich wird notiert und nie
+zum Ausschluss benutzt (`HMdI_Verwaltungsaufbau` steht als Ministeriumsdatei
+längst in der Karte), Abschnitt 4 sagt ausdrücklich, dass es keine vierte Art
+gibt und die einzige Frage lautet, ob die Datei überhaupt Regelungen enthält,
+und Grenze 3 entscheidet jetzt statt nur zu verbieten: wer eine Datei zum
+zweiten Mal bewertet, trägt sie in die Themenkarte ein und geht weiter.
 
 Der vierte Lauf kam erstmals bis zur Rückfrage, lieferte aber einen Abschnitt 2,
 der nicht eingetragen werden durfte. Drei Fehler, die alle dieselbe Wurzel haben

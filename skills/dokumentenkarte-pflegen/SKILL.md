@@ -30,8 +30,12 @@ Grenze 2   Oeffne jede Datei hoechstens einmal pro Lauf. Wird die Ausgabe
            Oeffne sie nicht erneut und versuche nicht, den Rest zu bekommen.
 
 Grenze 3   Wiederhole nie eine Ueberlegung, die du schon angestellt hast.
-           Merkst du, dass du dieselbe Datei zum zweiten Mal bewertest,
-           entscheide dich sofort und geh weiter.
+           Merkst du, dass du dieselbe Datei zum zweiten Mal bewertest, ist die
+           Entscheidung damit gefallen: die Datei kommt in die Themenkarte, du
+           notierst ihren Geltungsbereich in der Zeile und gehst weiter. Ein
+           Eintrag zu viel kostet eine Suche, ein Lauf, der sich festfrisst,
+           kostet alles. Auch den Vergleich aus Abschnitt 2 machst du genau
+           einmal und rechnest ihn nicht neu.
 
 Grenze 4   Kommst du trotzdem nicht durch, brich ab und sag, wie weit du
            gekommen bist. Ein ehrlicher Abbruch ist besser als eine
@@ -121,6 +125,13 @@ Doppelpunkt, dann der Dateiname. Deckt die neue Datei ein Thema ab, das eine
 bestehende Datei nur teilweise regelt, schreib bei beiden Zeilen "beide lesen"
 dazu und sag, welche Datei welchen Teil beantwortet.
 
+Der Geltungsbereich wird notiert, nie zum Ausschluss benutzt. Eine Datei
+gehoert auch dann in die Themenkarte, wenn sie von einer anderen Stelle stammt
+oder fuer einen anderen Personenkreis gilt, etwa vom Ministerium statt von der
+HZD. Schreib den Geltungsbereich dann in die Zeile, damit hausinfo-arbeit ihn
+beim Antworten pruefen kann. Das Beispiel dafuer steht schon in der Karte:
+HMdI_Verwaltungsaufbau ist eine Datei des Ministeriums und steht trotzdem drin.
+
 Ist der Geltungsbereich nach dem Lesen unklar, nimm die Datei trotzdem auf und
 schreib die offene Frage in den Aenderungsbericht. Erfinde keinen
 Geltungsbereich.
@@ -150,6 +161,11 @@ Art 3   Doppelte oder aeltere Fassungen einer Datei, die schon in der
 Alles andere kommt in die Themenkarte. Im Zweifel Themenkarte, denn eine
 ueberfluessige Zeile kostet nur eine Suche, eine fehlende Zeile kostet eine
 Antwort.
+
+Es gibt genau diese drei Arten und keine vierte. Ein anderer Geltungsbereich
+ist keine davon. Die einzige Frage hier lautet: enthaelt die Datei ueberhaupt
+Regelungen oder Verfahren? Wenn ja, Themenkarte, gleich von wem sie stammt und
+fuer wen sie gilt. Ueberleg nicht laenger als zwei Saetze pro Datei.
 
 Ein Programmheft ist zwar keine Regelung, es beweist aber, dass es das Thema
 gibt. Steht das Thema in der Liste Nicht in der Bibliothek, streiche es dort
@@ -324,4 +340,4 @@ Du legst keinen neuen Skill an, loeschst keinen und benennst keinen um. Du
 aenderst keine andere Datei als die eine Zieldatei.
 
 
-ENDE dokumentenkarte-pflegen v8
+ENDE dokumentenkarte-pflegen v9
