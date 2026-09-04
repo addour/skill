@@ -1,3 +1,8 @@
+---
+name: dokumentenkarte-pflegen
+description: 'Verwende diesen Skill, wenn der Nutzer Dokumentenkarte aktualisieren, Themenkarte aktualisieren, Dokumentenkarte pruefen oder Abschnitt 2 neu bauen sagt. Ebenso, wenn sich die Bibliothek "Arbeit docs" geaendert hat, also eine Datei dazugekommen, entfernt oder umbenannt wurde, oder wenn der Skill hausinfo-arbeit gemeldet hat, dass die Themenkarte veraltet scheint. Liefert einen fertigen Abschnitt 2 zum Einsetzen in hausinfo-arbeit.'
+---
+
 dokumentenkarte-pflegen
 
 Haelt Abschnitt 2 des Skills hausinfo-arbeit aktuell. Der Nutzer bearbeitet
@@ -145,4 +150,4 @@ eine Zeile nie eine Regel, eine Zahl oder eine Frist aus einer Datei, sondern
 nur, wo gesucht werden soll.
 
 
-ENDE dokumentenkarte-pflegen v2 plain
+ENDE dokumentenkarte-pflegen v3

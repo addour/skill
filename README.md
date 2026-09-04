@@ -37,15 +37,17 @@ Abschnitt 2 zum Kopieren, ändert nichts anderes.
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | Anweisungstext (v2 plain), ohne Markdown-Syntax |
-| `skills/dokumentenkarte-pflegen/VIBE-felder.txt` | Name und Beschreibung für die beiden Formularfelder |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v3), eine Datei zum Hochladen |
 
-Vibe speichert Name und Beschreibung in eigenen Formularfeldern und rendert den
-Anweisungstext als Markdown. Beides zusammen führte dazu, dass beim Zurücklesen
-das Frontmatter fehlte und Überschriften wie Absätze verschwanden. Deshalb
-enthält `SKILL.md` hier bewusst keine Markdown-Zeichen: kein `#`, kein `-`,
-kein Frontmatter. Was der Nutzer sieht, ist damit exakt das, was gespeichert ist.
-Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v2 plain`.
+Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
+`description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
+Der Text darunter kommt dagegen ohne Markdown-Syntax aus: keine Überschriften
+mit Raute, keine Aufzählungsstriche. Abschnitte stehen als
+Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
+Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
+Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
+Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v3`.
 
 Der Anschluss an `hausinfo-arbeit` braucht keine Änderung an dessen Datei:
 §10 verweist den Nutzer bereits auf das Stichwort **Dokumentenkarte aktualisieren**,
