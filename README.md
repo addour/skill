@@ -38,7 +38,7 @@ Rückfrage selbst ein, per `search_replace` auf
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v7), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v8), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -48,7 +48,28 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v7`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v8`.
+
+Der vierte Lauf kam erstmals bis zur Rückfrage, lieferte aber einen Abschnitt 2,
+der nicht eingetragen werden durfte. Drei Fehler, die alle dieselbe Wurzel haben
+— eine Zahl oder eine Prüfung, die sich auf die Karte statt auf die Bibliothek
+bezog:
+
+- Die Stand-Zeile trug `12 Dateien`, die Zahl der Kartenzeilen, statt der 19
+  Dateien der Bibliothek. Dieselbe falsche Zahl wanderte in die Einleitung der
+  Negativliste, wo sie zur Behauptung wird, alle zwölf Dateien seien geprüft.
+- Abschnitt 5 wurde still übersprungen. Das in zwei früheren Läufen erkannte,
+  nicht mehr vorhandene `Informationsblatt_Datenschutz_Vitero_HZD` blieb in der
+  Vitero-Zeile stehen.
+- Prüfung 3 und 4 meldeten beide grün, obwohl genau diese beiden Fehler in ihren
+  Zuständigkeitsbereich fielen. Sie fragten zu unbestimmt.
+
+In v8 nennt Abschnitt 8 die Herkunft der Zahl ausdrücklich (`die Zahl aus
+Schritt 1`, nicht die Zeilenzahl), läuft Abschnitt 5 in jedem Lauf mit
+Pflichtausgabe `verschwunden keine`, und die Prüfungen 3 und 4 verlangen einen
+Abgleich Zeile für Zeile gegen die Liste aus Schritt 1. Dazu die Regel, die
+bestehende Reihenfolge der Themenkarte nicht umzusortieren — der Lauf hatte sie
+alphabetisch neu geordnet.
 
 Der dritte Lauf kam bis zur Selbstprüfung: Auswahl rechtzeitig auf drei begrenzt,
 nur diese drei gelesen, alle drei korrekt eingeordnet, das fehlende

@@ -158,7 +158,13 @@ nach Abschnitt 6.
 
 ABSCHNITT 5   VERSCHWUNDENE DATEI
 
-Entferne ihre Zeile, gleich aus welchem Block. Entferne ausserdem jede Falle
+Dieser Abschnitt laeuft in jedem Lauf, auch wenn nichts verschwunden ist. Geh
+dafuer jeden Dateinamen durch, der in Abschnitt 2 vorkommt, und pruefe, ob er im
+Ist-Stand steht. Nenne das Ergebnis im Aenderungsbericht, entweder die Namen
+oder den Satz: verschwunden keine. Grenze 1 gilt hier nicht, denn du liest keine
+Datei, du vergleichst nur Namen.
+
+Ist eine Datei verschwunden, entferne ihre Zeile, gleich aus welchem Block. Entferne ausserdem jede Falle
 und jeden "beide lesen" Hinweis, der sich nur auf diese Datei bezieht. Nennt
 eine andere Zeile diese Datei als zweite Quelle, streiche dort den Zusatz und
 sag es im Aenderungsbericht, weil das Thema danach nur noch halb belegt ist.
@@ -223,10 +229,26 @@ Regeln, die vorher da waren.
 Uebernimm die Ueberschriften genau in der Schreibweise, die du in Schritt 2
 gelesen hast. Aendere die Formatierung der Datei nicht.
 
-Die erste Zeile nach der Ueberschrift traegt das heutige Datum und die
-wirkliche Anzahl der Dateien in der Bibliothek, im Muster der alten Zeile:
-Stand JJJJ-MM-TT, N Dateien. Bist du nach Grenze 1 noch nicht durch, schreib
-dahinter: davon M noch nicht eingeordnet.
+Lass die bestehenden Zeilen in ihrer bisherigen Reihenfolge stehen. Sortiere die
+Themenkarte nicht um, auch nicht alphabetisch. Die Reihenfolge stammt aus der
+Haeufigkeit der Fragen, und Umsortieren macht jede Aenderung unlesbar. Neue
+Zeilen haengst du hinter die Zeile mit dem verwandtesten Thema, sonst ans Ende.
+
+Die erste Zeile nach der Ueberschrift traegt das heutige Datum und die Anzahl
+der Dateien in der Bibliothek, im Muster der alten Zeile: Stand JJJJ-MM-TT,
+N Dateien.
+
+N ist die Zahl aus listLibraryDocuments in Schritt 1, also wie viele Dateien die
+Bibliothek hat. N ist nicht die Zahl der Zeilen in der Themenkarte und nicht die
+Zahl der Dateien, die du eingeordnet hast. Diese Zeile beschreibt die
+Bibliothek, nicht die Karte.
+
+Bist du nach Grenze 1 noch nicht durch, schreib dahinter: davon M noch nicht
+eingeordnet. M ist N minus der Zahl der Bibliotheksdateien, die irgendwo in
+Abschnitt 2 vorkommen.
+
+Dieselbe Zahl N steht in der Einleitung des Blocks Nicht in der Bibliothek, im
+Satz ueber die Dateien, die nichts dazu enthalten. Zieh sie dort mit.
 
 Die Themenkarte bleibt eine Suchhilfe und wird keine Faktenquelle. Schreib in
 eine Zeile nie eine Regel, eine Zahl oder eine Frist aus einer Datei, sondern
@@ -243,13 +265,16 @@ Pruefung 1   Stehen im neuen Abschnitt 2 die Ueberschriften aller vier Bloecke?
              Ob ein Block Eintraege hat, spielt hier keine Rolle.
 Pruefung 2   Ist jede Falle aus dem alten Abschnitt 2 entweder woertlich
              uebernommen, oder gehoert sie zu einer verschwundenen Datei?
-Pruefung 3   Kommt jeder Dateiname aus dem Ist-Stand genau einmal vor, in der
-             Themenkarte oder im Block Nicht fuer Arbeitsfragen, und kein Name,
-             den es in der Bibliothek nicht gibt? Noch nicht eingeordnete
-             Dateien nach Grenze 1 sind hier ausgenommen und stehen im
-             Aenderungsbericht.
-Pruefung 4   Stimmt die Zahl in der Stand-Zeile mit der wirklichen Anzahl der
-             Dateien ueberein?
+Pruefung 3   Geh jeden Dateinamen durch, der in deinem neuen Abschnitt 2
+             vorkommt, und such ihn in der Liste aus Schritt 1. Fehlt einer
+             dort, ist die Datei verschwunden und die Zeile gehoert weg. Noch
+             nicht eingeordnete Dateien nach Grenze 1 fehlen umgekehrt in
+             Abschnitt 2, das ist richtig und steht im Aenderungsbericht.
+Pruefung 4   Steht in der Stand-Zeile die Zahl aus Schritt 1, also die Zahl der
+             Dateien in der Bibliothek? Zaehl die Liste aus Schritt 1 noch
+             einmal und vergleiche Ziffer fuer Ziffer. Die Zahl der Zeilen in
+             der Themenkarte ist hier die falsche Zahl. Steht dieselbe Zahl
+             auch in der Einleitung von Nicht in der Bibliothek?
 Pruefung 5   Habe ich zu jeder eingeordneten neuen Datei den Geltungsbereich
              notiert?
 Pruefung 6   Beginnt mein Ersetzungstext an der Ueberschrift von Abschnitt 2
@@ -299,4 +324,4 @@ Du legst keinen neuen Skill an, loeschst keinen und benennst keinen um. Du
 aenderst keine andere Datei als die eine Zieldatei.
 
 
-ENDE dokumentenkarte-pflegen v7
+ENDE dokumentenkarte-pflegen v8
