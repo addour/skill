@@ -29,7 +29,16 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 | v12 | 18 621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
 | v13 | 19 302 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
 
-## Geplant
+## dokumentenkarte-pflegen
 
-`dokumentenkarte-pflegen` — hält die Themenkarte in Abschnitt 2 aktuell,
-wenn Dateien in der Bibliothek dazukommen oder verschwinden.
+Hält Abschnitt 2 von `hausinfo-arbeit` aktuell, wenn Dateien in der Bibliothek
+dazukommen, verschwinden oder umbenannt werden. Liefert einen fertigen
+Abschnitt 2 zum Kopieren, ändert nichts anderes.
+
+| Datei | Inhalt |
+|-------|--------|
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v1) |
+
+Der Anschluss an `hausinfo-arbeit` braucht keine Änderung an dessen Datei:
+§10 verweist den Nutzer bereits auf das Stichwort **Dokumentenkarte aktualisieren**,
+und die description dieses Skills löst genau darauf aus.
