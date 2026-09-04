@@ -32,12 +32,13 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 ## dokumentenkarte-pflegen
 
 Hält Abschnitt 2 von `hausinfo-arbeit` aktuell, wenn Dateien in der Bibliothek
-dazukommen, verschwinden oder umbenannt werden. Liefert einen fertigen
-Abschnitt 2 zum Kopieren, ändert nichts anderes.
+dazukommen, verschwinden oder umbenannt werden. Trägt den neuen Abschnitt nach
+Rückfrage selbst ein, per `search_replace` auf
+`/home/user/skills/hausinfo-arbeit/SKILL.md`, und ändert nichts anderes.
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v3), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v4), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -47,7 +48,15 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v3`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v4`.
+
+Weil der Skill jetzt in eine Datei schreibt, die täglich benutzt wird, sitzen
+zwischen Bauen und Schreiben zwei Sperren: eine mechanische Selbstprüfung mit
+sechs Fragen (§8) und eine Rückfrage beim Nutzer (§9). Nach dem Schreiben wird
+die Datei erneut gelesen und geprüft, ob Abschnitt 1, die Überschrift von
+Abschnitt 3, die neue Stand-Zeile und die Schlusszeile stehen. Scheitert etwas
+davon, gibt der Skill den Text zur Handarbeit aus statt einen zweiten
+Schreibversuch zu starten.
 
 Der Anschluss an `hausinfo-arbeit` braucht keine Änderung an dessen Datei:
 §10 verweist den Nutzer bereits auf das Stichwort **Dokumentenkarte aktualisieren**,
