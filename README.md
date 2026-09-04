@@ -14,6 +14,23 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 | `skills/hausinfo-arbeit/versions/` | v4, v6, v7, v8, v9, v10, v11, v12 zum Vergleich |
 | `skills/hausinfo-arbeit/TESTS.md` | Testfälle, Ergebnisse, Ursachenanalyse |
 
+### Erste echte Pflege durch dokumentenkarte-pflegen
+
+Am 2026-09-04 wuchs die Bibliothek von 9 auf 19 Dateien. `dokumentenkarte-pflegen`
+v8 hat Abschnitt 2 selbst umgeschrieben, in einem Stapel von drei Dateien:
+
+- neu in der Themenkarte: `DA_Informations-und_Kommunikationstechni`,
+  `Erlaeuterungen_zum_Umgang_mit_Dokumenten`, `DA_Aktenplan_OH_1.2.2.1 (1)`
+- verschwunden und entfernt: `Informationsblatt_Datenschutz_Vitero_HZD` — die
+  Vitero-Zeile verliert damit auch ihr `beide lesen`
+- vierter Block **Nicht für Arbeitsfragen** angelegt, vorerst leer
+- Stand-Zeile: `2026-09-04, 19 Dateien. davon 8 noch nicht eingeordnet.`
+
+In Abschnitt 5 wurde von Hand die veraltete Zahl entfernt: aus „Die Bibliothek
+enthält neun Dateien" wurde „Die Bibliothek enthält nur einen Teil der
+Regelungen der HZD", damit der Satz bei der nächsten neuen Datei nicht wieder
+falsch wird. Acht Dateien sind noch offen, sie folgen in drei weiteren Stapeln.
+
 ### Versionen
 
 | Version | Zeichen | Was dazukam |
@@ -27,7 +44,7 @@ Beantwortet Fragen zum Arbeitsalltag bei der HZD ausschließlich aus der Bibliot
 | v10 | 17 932 | Hinweis-Block bei ❌ für dokumentierte Verweise; keine erfundenen Organisationseinheiten |
 | v11 | 18 329 | keine erfundenen E-Mail-Adressen oder Telefonnummern |
 | v12 | 18 621 | Intranet-Zeile als Pflichtzeile statt Nebensatz; Anrede du festgelegt |
-| v13 | 19 302 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
+| v13 | 19 544 | Kreuz-Reihenfolge vollständig nummeriert; Organisationseinheit nur aus dem Geschäftsverteilungsplan |
 
 ## dokumentenkarte-pflegen
 
