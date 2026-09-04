@@ -38,7 +38,7 @@ Rückfrage selbst ein, per `search_replace` auf
 
 | Datei | Inhalt |
 |-------|--------|
-| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v6), eine Datei zum Hochladen |
+| `skills/dokumentenkarte-pflegen/SKILL.md` | aktuelle Fassung (v7), eine Datei zum Hochladen |
 
 Die Datei wird als Ganzes hochgeladen. Das YAML-Frontmatter mit `name` und
 `description` muss deshalb drin bleiben, sonst weist Vibe die Datei zurück.
@@ -48,7 +48,18 @@ Großbuchstabenzeilen, Listen als eingerückte Wortmarken. Grund ist die
 Darstellung: beim Zurücklesen aus Vibe verschwanden Überschriften und ganze
 Absätze, während Aufzählungen stehen blieben, sodass sich der gespeicherte
 Inhalt nicht mehr prüfen ließ. Ohne Markdown-Zeichen ist das Angezeigte gleich
-dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v6`.
+dem Gespeicherten. Prüfzeile am Ende: `ENDE dokumentenkarte-pflegen v7`.
+
+Der dritte Lauf kam bis zur Selbstprüfung: Auswahl rechtzeitig auf drei begrenzt,
+nur diese drei gelesen, alle drei korrekt eingeordnet, das fehlende
+`Informationsblatt_Datenschutz_Vitero_HZD` erkannt und das `beide lesen` in der
+Vitero-Zeile entfernt, Stand-Zeile und Restzähler richtig gerechnet. Gescheitert
+ist er an einem Widerspruch in diesem Skill: der Block **Nicht für Arbeitsfragen**
+musste angelegt werden, durfte laut Grenze 1 aber nicht aus den gesperrten
+Dateien gefüllt werden, und leer sein war nirgends erlaubt. In v7 steht daher
+ausdrücklich, dass ein leerer Block vollständig ist — die Überschrift genügt,
+darunter kommt `bisher keine`, und der Behälter füllt sich über die folgenden
+Läufe.
 
 Der zweite Lauf blieb im Rahmen: keine Wiederholungen, keine Doppellesungen,
 und er fand einen echten Fehler — `Informationsblatt_Datenschutz_Vitero_HZD`

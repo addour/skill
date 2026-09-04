@@ -134,7 +134,13 @@ werden, sonst liest der naechste Lauf sie wieder und hausinfo-arbeit meldet sie
 als unbekannt.
 
 Solche Dateien kommen in den Block Nicht fuer Arbeitsfragen, mit dem Dateinamen
-und einer Zeile Begruendung. Drei Arten sind gemeint.
+und einer Zeile Begruendung.
+
+Der Block ist ein Behaelter, der sich ueber mehrere Laeufe fuellt. Hast du in
+diesem Lauf keine solche Datei bearbeitet, bleibt er leer, und das ist richtig.
+Fuelle ihn nie mit Dateien, die du nach Grenze 1 gar nicht ansehen darfst.
+
+Drei Arten sind gemeint.
 
 Art 1   Veranstaltungsprogramme und Termine, etwa ein Programmheft.
 Art 2   Strategiepapiere, Agenden und Fortschrittsberichte ohne Regelungen.
@@ -203,7 +209,13 @@ ABSCHNITT 8   DEN NEUEN ABSCHNITT 2 BAUEN
 
 Bau den vollstaendigen Abschnitt 2, nicht nur den geaenderten Teil. Er enthaelt
 immer alle vier Bloecke in dieser Reihenfolge: die Themenkarte, dann Fallen,
-dann Nicht fuer Arbeitsfragen, dann Nicht in der Bibliothek. Auch die
+dann Nicht fuer Arbeitsfragen, dann Nicht in der Bibliothek.
+
+Vorhanden heisst: die Ueberschrift des Blocks steht da. Ein Block darf leer
+sein. Hat der Block Nicht fuer Arbeitsfragen in diesem Lauf keinen Eintrag
+bekommen, schreib unter die Ueberschrift den Satz: bisher keine. Damit ist er
+vollstaendig. Halte deswegen nie den ganzen Lauf an und sieh deswegen nie eine
+Datei an, die nach Grenze 1 gesperrt ist. Auch die
 unveraenderten Zeilen und Fallen stehen mit drin. Ein Abschnitt 2 mit einem
 fehlenden Block waere schlimmer als keiner, denn er loescht beim Ersetzen still
 Regeln, die vorher da waren.
@@ -227,7 +239,8 @@ Geh diese sechs Fragen durch. Ist eine Antwort nein, schreibe nicht. Sag
 stattdessen, welche Pruefung gescheitert ist, und gib den neuen Abschnitt 2 als
 Text aus, damit der Nutzer selbst entscheiden kann.
 
-Pruefung 1   Enthaelt mein neuer Abschnitt 2 alle vier Bloecke?
+Pruefung 1   Stehen im neuen Abschnitt 2 die Ueberschriften aller vier Bloecke?
+             Ob ein Block Eintraege hat, spielt hier keine Rolle.
 Pruefung 2   Ist jede Falle aus dem alten Abschnitt 2 entweder woertlich
              uebernommen, oder gehoert sie zu einer verschwundenen Datei?
 Pruefung 3   Kommt jeder Dateiname aus dem Ist-Stand genau einmal vor, in der
@@ -286,4 +299,4 @@ Du legst keinen neuen Skill an, loeschst keinen und benennst keinen um. Du
 aenderst keine andere Datei als die eine Zieldatei.
 
 
-ENDE dokumentenkarte-pflegen v6
+ENDE dokumentenkarte-pflegen v7
